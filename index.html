@@ -8,6 +8,9 @@
         <!-- UIkit CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css" />
 
+        <!-- Portfolio css -->
+        <link rel="stylesheet" href="css/portfolio.css" />
+
         <!-- UIkit JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit-icons.min.js"></script>
@@ -17,12 +20,62 @@
 
     </head>
 
-    <!-- Laten we maar eens beginnen -->
+<body>
+<div class="uk-container">
+  <div class="uk-height-viewport">
+    <div id="intro" class="uk-position-center uk-text-center">
+      <img id="hoofd" src="img/ruben.png" />
+      <h1>Hey.👋<br/>
+      I’m Ruben Stehouwer, a UX Designer from the beautiful city of Utrecht, The Netherlands.</h1>
+      </div>
 
-    <body>
-<h2>Test</h2>
-<p class="uk-text-lead">
-  Test nnog een keer
-  </p>
-    </body>
+      <div class="uk-position-bottom-center uk-margin-medium-bottom">
+        <p>
+          Some work I’m proud of ↓
+        </p>
+
+      </div>
+      <div class="uk-margin-medium-top uk-margin-medium-right uk-position-top-right">
+        <button id="knop" class=" uk-text-lowercase uk-button uk-button-primary"><a id="linkedin" href="https://www.linkedin.com/in/rubenstehouwer" target="_blank">Linkedin</a></button>
+        <div class="subpar uk-margin-small-top uk-margin-medium-right">
+          <a href="mailto:hello@rubenste.nl">hello@rubenste.nl</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+  <!-- Hier begint portfolio -->
+  <!-- adidas-->
+<div class="uk-container uk-margin-xlarge-top">
+  <div class="uk-grid uk-margin-large-top">
+    <div id="uk-width-1-2@m">
+      <p>
+      <strong>adidas LockerRoom</strong>
+      </p>
+      <p class="ondertekst">
+        Client -- adidas <br />
+        Agency -- MediaMonks <br />
+        Role -- UX Designer <br />
+        Lead UX Designer -- Sjoerd Vijfhuizen</class>
+    </div>
+    <div id="uk-width-1-2@m">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac cursus ligula. Cras viverra est eu mattis auctor. Fusce ac est pellentesque, finibus orci et, tempus libero. Sed quis dictum ligula. Aliquam et arcu in eros fringilla imperdiet. Sed est tortor, volutpat in pellentesque non, pulvinar commodo ex. Nulla ligula nunc, luctus nec volutpat nec, dapibus at nisi. Aliquam pretium a nunc quis vehicula. Integer eget scelerisque nibh, id venenatis purus.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- adidas images-->
+<div class="uk-position-relative uk-margin-large-top" uk-scrollspy="target: > img; cls:uk-animation-slide-bottom-medium; delay: 1000">
+  <img class="uk-width-1-1 uk-scrollspy-inview uk-animation-slide-bottom-medium" data-src="/img/adidas/1.jpg" width="1920px" height="" alt="" uk-img>
+  <img class="uk-width-1-1 uk-scrollspy-inview uk-animation-slide-bottom-medium" data-src="/img/adidas/2.jpg" width="1920px" height="" alt="" uk-img>
+  <img class="uk-width-1-1 uk-scrollspy-inview uk-animation-slide-bottom-medium" data-src="/img/adidas/3.jpg" width="1920px" height="" alt="" uk-img>
+  <img class="uk-width-1-1 uk-scrollspy-inview uk-animation-slide-bottom-medium" data-src="/img/adidas/4.jpg" width="1920px" height="" alt="" uk-img>
+  <img class="uk-width-1-1 uk-scrollspy-inview uk-animation-slide-bottom-medium" data-src="/img/adidas/5.jpg" width="1920px" height="" alt="" uk-img>
+</div>
+
+
+
+</body>
 </html>
