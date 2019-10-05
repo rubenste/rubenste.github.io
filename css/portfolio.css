@@ -40,6 +40,12 @@ p {
   margin-top: -20px;
 }
 
+.uk-link {
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: -0.1px;
+}
+
 #intro {
   width: 600px;
 }
