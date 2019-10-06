@@ -8,6 +8,12 @@ body {
   background-color: #F9F9F9;
 }
 
+a {
+  font-family: 'Work Sans';
+  text-decoration: none;
+  position: relative;
+}
+
 h1 {
   font-size: 24px;
   line-height: 35px;
@@ -67,12 +73,20 @@ p {
           transform: rotate(360deg);
 }
 
-#plaatje {
+#fwa {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  transition: opacity .1s ease-out;
+    -moz-transition: opacity .1s ease-out;
+    -webkit-transition: opacity .1s ease-out;
+    -o-transition: opacity .1s ease-out;
+}
+
+#fwa:hover{
+  opacity: 0.5;
 }
 
 #knop {
@@ -82,4 +96,31 @@ p {
 
 #linkedin {
   color: white;
+}
+
+.text-highlight {
+  border-radius: 1em 0 1em 0;
+  background-image:
+    linear-gradient(-100deg,
+      rgba(255,250,150,0.9),
+      rgba(255,250,150,0.8) 100%,
+      rgba(255,250,150,0.25)
+    );
+}
+
+.highlight{
+	background-color:#FFFF66;
+	line-height: 23px;
+	border-radius: 100px;
+}
+
+.hover-highlight:hover {
+  background-color:#FFFF66;
+  line-height: 23px;
+  border-radius: 100px;
+}
+
+#eind {
+  background-image: linear-gradient(270deg, #1DA800 0%, #00BBB0 100%);
+  height:10px;
 }
