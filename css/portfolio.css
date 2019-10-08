@@ -64,13 +64,13 @@ p {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+          transition:         transform 0.8s ease-in-out;
 }
 
 #hoofd:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -webkit-transform: rotate(720deg);
+          transform: rotate(720deg);
 }
 
 .plaatje {
