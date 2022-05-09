@@ -95,14 +95,15 @@ p {
 #knop {
   background-image: linear-gradient(270deg, #1DA800 0%, #00BBB0 100%);
   border-radius: 40px;
+  transition: 0.3s;
+}
+
+#knop:hover {
+  opacity: 0.5
 }
 
 #linkedin {
   color: white;
-}
-
-#linkedin:hover {
-  opacity: 0.5;
 }
 
 .text-highlight {
