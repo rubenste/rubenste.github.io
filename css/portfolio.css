@@ -101,6 +101,10 @@ p {
   color: white;
 }
 
+#linkedin:hover {
+  opacity: 0.5;
+}
+
 .text-highlight {
   border-radius: 1em 0 1em 0;
   background-image:
